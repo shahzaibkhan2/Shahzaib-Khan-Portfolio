@@ -1,0 +1,141 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.services__title {
+  position: relative;
+}
+
+.services__title h1 {
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.services__title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.services__format {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  padding: 60px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.services__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.services__format h3 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.services__format h2 {
+  font-weight: 800;
+  font-size: 38px;
+  background: linear-gradient(270deg, #594eaf 50%, #292286 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.services__format p {
+  font-size: 24px;
+  color: #d4d4d4;
+  line-height: 40px;
+  max-width: 300px;
+}
+
+.services__readmore {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.services__format:hover {
+  background: #1c1678;
+  background-image: linear-gradient(45deg, #2a2175, #4cabe2);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+/* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
+
+@media (max-width: 768px) {
+  .services {
+    gap: 70px;
+    align-items: start;
+    margin: 20px 70px;
+  }
+
+  .services__title h1 {
+    padding: 0;
+    font-size: 50px;
+  }
+
+  .services__title {
+    margin-left: 30%;
+  }
+
+  .services__title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+
+  .services__format {
+    padding: 32px;
+    gap: 20px;
+  }
+
+  .services__format h2 {
+    font-size: 28px;
+  }
+
+  .services__format p {
+    line-height: 32px;
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .services__readmore img {
+    height: 20px;
+  }
+
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+  }
+
+  .services__title h1 {
+    font-size: 43px;
+  }
+
+  .services__title {
+    margin-left: 17%;
+  }
+}
