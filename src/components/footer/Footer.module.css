@@ -18,7 +18,19 @@
 .footer__top__right {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 30px;
+}
+
+.footer__img__box {
+  width: 40px;
+}
+
+.footer__img__box img {
+  width: 100%;
+}
+
+.discord__box {
+  width: 80px;
 }
 
 .footer__email__input {
@@ -98,10 +110,6 @@
   .footer__top {
     flex-direction: column;
     gap: 45px;
-  }
-
-  .footer__top__right {
-    display: block;
   }
 
   .subscribe__btn {

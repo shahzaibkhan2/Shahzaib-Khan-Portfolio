@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import shahzaibLogo2 from "../../assets/shahzaibLogo2.svg";
+import linkedIn from "../../assets/Linkedin1.png";
+import github from "../../assets/github.png";
+import discord from "../../assets/discord.png";
+import facebook from "../../assets/facebook1.png";
 
 const Footer = () => {
   return (
@@ -18,7 +22,18 @@ const Footer = () => {
           </p>
         </div>
         <div className={`${styles.footer__top__right}`}>
-          <div></div>
+          <div className={`${styles.footer__img__box}`}>
+            <img src={linkedIn} alt="Linkedin" />
+          </div>
+          <div className={`${styles.footer__img__box}`}>
+            <img src={github} alt="Github" />
+          </div>
+          <div className={`${styles.footer__img__box}`}>
+            <img src={facebook} alt="Facebook" />
+          </div>
+          <div className={`${styles.footer__img__box} ${styles.discord__box}`}>
+            <img src={discord} alt="Discord" />
+          </div>
         </div>
       </div>
       <hr />

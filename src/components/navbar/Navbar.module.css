@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  gap: 60px;
+  gap: 40px;
 }
 
 .nav__bg {
@@ -141,10 +141,14 @@
   .nav__menu {
     right: -350px;
   }
+
+  .navbar img {
+    width: -400px;
+  }
 }
 
 @media (max-width: 2026px) {
   .navbar {
-    gap: 60px;
+    gap: 40px;
   }
 }
