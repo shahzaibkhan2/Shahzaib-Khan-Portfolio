@@ -154,8 +154,12 @@
     font-weight: 600;
   }
 
+  .contact__title {
+    margin-left: 14%;
+  }
+
   .contact__title img {
-    margin-right: -20px;
+    margin-right: 0px;
     width: 130px;
   }
 
@@ -203,10 +207,6 @@
   .contact {
     gap: 50px;
     margin: 45px 65px;
-  }
-
-  .contact__title {
-    margin-left: 14%;
   }
 
   .contact__title h1 {

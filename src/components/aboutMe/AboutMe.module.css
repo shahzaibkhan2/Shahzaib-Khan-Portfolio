@@ -125,16 +125,16 @@
     margin: 50px 70px;
   }
 
-  .about__title {
-    margin-left: 30%;
-  }
-
   .about__title h1 {
     padding: 0;
     font-size: 50px;
     text-align: center;
     align-items: center;
     justify-content: center;
+  }
+
+  .about__title {
+    margin-left: 13%;
   }
 
   .about__title img {
@@ -201,10 +201,6 @@
     gap: 80px;
     align-items: start;
     margin: 45px 65px;
-  }
-
-  .about__title {
-    margin-left: 20%;
   }
 
   .about__title h1 {
