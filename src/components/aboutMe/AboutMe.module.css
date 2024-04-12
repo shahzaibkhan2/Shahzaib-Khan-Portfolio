@@ -176,6 +176,15 @@
     gap: 10px;
   }
 
+  .about__achievement__left__margin {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .about__achievement__right__margin {
+    margin-right: 10px;
+  }
+
   .about__achievement h1 {
     font-size: 34px;
     font-weight: 700;
