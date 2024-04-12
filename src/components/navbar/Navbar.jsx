@@ -102,7 +102,7 @@ const Navbar = () => {
           offset={50}
           href="#contact"
         >
-          Communicate With Me
+          Contact Me
         </AnchorLink>
       </div>
     </nav>

@@ -120,7 +120,6 @@
 
   .mywork__container {
     grid-template-columns: 1fr;
-    width: 320px;
   }
 
   .mywork__showmore {

@@ -141,10 +141,6 @@
   .nav__menu {
     right: -350px;
   }
-
-  .navbar img {
-    width: -400px;
-  }
 }
 
 @media (max-width: 2026px) {

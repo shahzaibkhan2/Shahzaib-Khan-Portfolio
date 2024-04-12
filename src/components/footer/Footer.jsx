@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 import shahzaibLogo2 from "../../assets/shahzaibLogo2.svg";
 import linkedIn from "../../assets/Linkedin1.png";
-import github from "../../assets/github.png";
+import github from "../../assets/github1.png";
 import discord from "../../assets/discord.png";
 import facebook from "../../assets/facebook1.png";
 
@@ -44,7 +44,7 @@ const Footer = () => {
         <div className={`${styles.footer__bottom__right}`}>
           <p>Terms of Services</p>
           <p>Privacy Policy</p>
-          <p>Communicate With Me</p>
+          <p>Contact Me</p>
         </div>
       </div>
     </footer>

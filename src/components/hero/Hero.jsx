@@ -21,7 +21,7 @@ const Hero = () => {
             offset={50}
             href="#contact"
           >
-            Communicate with Me
+            Contact Me
           </AnchorLink>
         </div>
         <div className={`${styles.hero__resume}`}>My Resume</div>
