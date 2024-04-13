@@ -115,36 +115,18 @@
     align-items: start;
     top: 0;
     gap: 50px;
-    background-color: rgba(4, 70, 192, 0.5);
+    background-color: rgba(4, 70, 192, 0.7);
     height: 100%;
     width: 270px;
     transition: right 0.5s;
     z-index: 2;
     right: -270px;
-    font-size: 16px;
   }
 
   .nav__menu li {
-    font-size: 30px;
+    font-size: 27px;
     padding-left: 30px;
     flex-direction: row;
     gap: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav__menu li {
-    font-size: 28px;
-    gap: 18px;
-  }
-
-  .nav__menu {
-    right: -350px;
-  }
-}
-
-@media (max-width: 2026px) {
-  .navbar {
-    gap: 40px;
   }
 }

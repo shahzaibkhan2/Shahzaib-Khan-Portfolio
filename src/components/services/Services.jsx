@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Services.module.css";
 import underlineIcon from "../../assets/underlineIcon.svg";
 import servicesData from "../../assets/servicesData.js";
-import arrowIcon from "../../assets/arrow_icon.svg";
 
 const Services = () => {
   return (
@@ -19,8 +18,7 @@ const Services = () => {
               <h2>{service.s_name}</h2>
               <p>{service.s_desc}</p>
               <div className={`${styles.services__readmore}`}>
-                <p>Read More</p>
-                <img src={arrowIcon} alt="Arrow-icon" />
+                <img src={service.path} alt={service.path} />
               </div>
             </div>
           );
