@@ -33,12 +33,12 @@ const Contact = () => {
   return (
     <div id="contact" className={`${styles.contact}`}>
       <div className={`${styles.contact__title}`}>
-        <h1>Let's Connect !</h1>
+        <h1>Contact Me</h1>
         <img src={underlineIcon} alt="icon-image" />
       </div>
       <div className={`${styles.contact__section}`}>
         <div className={`${styles.contact__left}`}>
-          <h1>Let's Talk !</h1>
+          <h1>Let's Connect !</h1>
           <p>
             Clear communication is essential for successful projects. I'll work
             closely with you to understand your goals, provide regular updates,

@@ -57,7 +57,7 @@
 }
 
 .communicate__me:hover {
-  animation: glow 1s infinite alternate;
+  animation: glowAnim 1s infinite alternate;
 }
 
 .nav__menu__close {
@@ -70,7 +70,7 @@
 
 /* ANIMATIONS FOR BUTTONS  */
 
-@keyframes glow {
+@keyframes glowAnim {
   0% {
     box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.7);
   }

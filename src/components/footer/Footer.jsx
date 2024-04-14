@@ -22,18 +22,41 @@ const Footer = () => {
           </p>
         </div>
         <div className={`${styles.footer__top__right}`}>
-          <div className={`${styles.footer__img__box}`}>
-            <img src={linkedIn} alt="Linkedin" />
-          </div>
-          <div className={`${styles.footer__img__box}`}>
-            <img src={github} alt="Github" />
-          </div>
-          <div className={`${styles.footer__img__box}`}>
-            <img src={facebook} alt="Facebook" />
-          </div>
-          <div className={`${styles.footer__img__box} ${styles.discord__box}`}>
-            <img src={discord} alt="Discord" />
-          </div>
+          <a
+            href="https://www.linkedin.com/in/engr-shahzaib-khan1/"
+            target="_blank"
+            className={`${styles.footer__img__box}`}
+          >
+            <img
+              className={`${styles.img__glow}`}
+              src={linkedIn}
+              alt="Linkedin"
+            />
+          </a>
+          <a
+            href="https://github.com/shahzaibkhan2"
+            target="_blank"
+            className={`${styles.footer__img__box}`}
+          >
+            <img className={`${styles.git__glow}`} src={github} alt="Github" />
+          </a>
+          <a href="#" className={`${styles.footer__img__box}`}>
+            <img
+              className={`${styles.img__glow}`}
+              src={facebook}
+              alt="Facebook"
+            />
+          </a>
+          <a
+            href="#"
+            className={`${styles.footer__img__box} ${styles.discord__box}`}
+          >
+            <img
+              className={`${styles.img__glow}`}
+              src={discord}
+              alt="Discord"
+            />
+          </a>
         </div>
       </div>
       <hr />

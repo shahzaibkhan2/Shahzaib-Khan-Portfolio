@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar} ${stickyBg && styles.nav__bg}`}>
-      <img src={shahzaibLogo2} alt="Logo" />
+      <img className={`${styles.glow__logo}`} src={shahzaibLogo2} alt="Logo" />
       <img
         ref={openRef}
         src={menuOpenIcon}
