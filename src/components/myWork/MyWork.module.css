@@ -68,11 +68,11 @@
 
 @media (min-width: 1171px) and (max-width: 1300px) {
   .mywork__container {
-    gap: 35px;
+    gap: 30px;
   }
 
   .mywork {
-    margin: 80px 160px;
+    margin: 70px 180px;
   }
 
   .mywork__container img {
@@ -108,7 +108,7 @@
   }
 
   .mywork__title h1 {
-    font-size: 50px;
+    font-size: 40px;
     padding: 0;
     font-weight: 600;
   }

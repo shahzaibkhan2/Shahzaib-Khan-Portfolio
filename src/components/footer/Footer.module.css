@@ -137,9 +137,16 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
+@media (min-width: 1171px) and (max-width: 1300px) {
+  .footer {
+    margin: 50px 70px;
+    gap: 50px;
+  }
+}
+
 @media (max-width: 1170px) {
   .footer {
-    margin: 50px 120px;
+    margin: 45px 160px;
   }
 
   .footer__top {
