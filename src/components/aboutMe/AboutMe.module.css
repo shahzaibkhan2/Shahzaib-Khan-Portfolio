@@ -118,7 +118,69 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
-@media (max-width: 768px) {
+@media (min-width: 1171px) and (max-width: 1300px) {
+  .about__skills {
+    width: 500px;
+  }
+
+  .about__title h1 {
+    font-size: 70px;
+  }
+
+  .about__sections {
+    gap: 70px;
+  }
+
+  .about__right {
+    gap: 70px;
+  }
+
+  .about__paragraph {
+    gap: 16px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .about__skills {
+    gap: 15px;
+  }
+
+  .about__skill p {
+    min-width: 135px;
+    font-size: 18px;
+  }
+
+  .about__skill hr {
+    height: 7px;
+    width: 45%;
+  }
+
+  .about__achievements {
+    margin-bottom: 70px;
+    width: 100%;
+  }
+
+  .about__achievement {
+    gap: 8px;
+  }
+
+  .about__achievement h1 {
+    font-weight: 600;
+    font-size: 50px;
+  }
+
+  .about__achievement p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .about__left {
+    display: none;
+  }
+}
+
+@media (max-width: 936px) {
   .about {
     gap: 80px;
     align-items: start;

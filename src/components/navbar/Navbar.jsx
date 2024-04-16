@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar} ${stickyBg && styles.nav__bg}`}>
-      <img className={`${styles.glow__logo}`} src={shahzaibLogo2} alt="Logo" />
+      <img src={shahzaibLogo2} alt="Logo" />
       <img
         ref={openRef}
         src={menuOpenIcon}
@@ -81,7 +81,7 @@ const Navbar = () => {
           </AnchorLink>
           {menu === "work" && <img src={underlineIcon2} alt="work" />}
         </li>
-        <li>
+        <li className={`${styles.contact__me}`}>
           <AnchorLink
             className={`${styles.anchor__link}`}
             offset={50}
@@ -102,7 +102,7 @@ const Navbar = () => {
           offset={50}
           href="#contact"
         >
-          Contact Me
+          Contact
         </AnchorLink>
       </div>
     </nav>

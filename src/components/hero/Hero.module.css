@@ -48,6 +48,7 @@
   border-radius: 50px;
   background: linear-gradient(264deg, #8576ff -5.09%, #1c1678 106.08%);
   cursor: pointer;
+  box-shadow: 10px 8px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .hero__resume {
@@ -56,6 +57,7 @@
   border: 2px solid #fff;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .hero__resume:hover {
@@ -110,6 +112,43 @@
 }
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
+
+@media (min-width: 1171px) and (max-width: 1300px) {
+  .hero {
+    gap: 30px;
+  }
+
+  .hero img {
+    margin-top: 140px;
+  }
+
+  .hero h1 {
+    font-weight: 600;
+    width: 70%;
+    font-size: 80px;
+  }
+
+  .hero p {
+    width: 45%;
+    line-height: 35px;
+    font-size: 18px;
+  }
+
+  .hero__action {
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+
+  .hero__communicate {
+    padding: 20px 40px;
+  }
+
+  .hero__resume {
+    border-radius: 50px;
+    padding: 20px 55px;
+  }
+}
 
 @media (max-width: 768px) {
   .hero img {

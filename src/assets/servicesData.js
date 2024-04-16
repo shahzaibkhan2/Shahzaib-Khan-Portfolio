@@ -22,7 +22,7 @@ const Services_Data = [
   },
   {
     s_no: "03",
-    s_name: "Elegant Website",
+    s_name: "Elegant & Animated Website",
     s_desc:
       "By using advanced libries like Framer-Motion and ThreeJs to make outstanding animations and transitions.",
     path: framerMotion,

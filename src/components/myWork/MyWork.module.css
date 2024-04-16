@@ -57,6 +57,7 @@
   margin-bottom: 80px;
   cursor: pointer;
   transition: 0.6s;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .mywork__showmore:hover {
@@ -65,7 +66,41 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
-@media (max-width: 768px) {
+@media (min-width: 1171px) and (max-width: 1300px) {
+  .mywork__container {
+    gap: 35px;
+  }
+
+  .mywork {
+    margin: 80px 160px;
+  }
+
+  .mywork__container img {
+    height: 220px;
+    width: 330px;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+
+  .mywork__title h1 {
+    font-size: 70px;
+  }
+
+  .mywork__title img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1170px) {
+  .mywork__container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 936px) {
   .mywork {
     gap: 50px;
     align-items: start;

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 25px 170px;
+  margin: 25px 100px;
   border-radius: 50px;
   z-index: 3;
 }
@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  gap: 40px;
+  gap: 43px;
 }
 
 .nav__bg {
@@ -50,6 +50,7 @@
   cursor: pointer;
   font-size: 22px;
   transition: 0.4s;
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.9);
 }
 
 .communicate__border {
@@ -84,7 +85,7 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
-@media (max-width: 768px) {
+@media (max-width: 936px) {
   .navbar {
     margin: 20px 50px;
   }
@@ -128,5 +129,21 @@
     padding-left: 30px;
     flex-direction: row;
     gap: 20px;
+  }
+}
+
+@media (max-width: 1038px) {
+  .navbar {
+    margin: 17px 60px;
+  }
+
+  .nav__bg {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .nav__menu .contact__me {
+    display: none;
   }
 }

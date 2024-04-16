@@ -86,7 +86,43 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
-@media (max-width: 768px) {
+@media (min-width: 1171px) and (max-width: 1300px) {
+  .services__format {
+    gap: 18px;
+    justify-content: center;
+    padding: 45px;
+  }
+
+  .services__format h3 {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .services__format h2 {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .services__format p {
+    font-size: 20px;
+    line-height: 35px;
+    max-width: 290px;
+  }
+
+  .services__readmore img {
+    height: 90%;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+}
+
+@media (max-width: 936px) {
   .services {
     gap: 70px;
     align-items: start;
