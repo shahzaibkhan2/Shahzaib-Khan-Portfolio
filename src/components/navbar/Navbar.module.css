@@ -116,12 +116,13 @@
     align-items: start;
     top: 0;
     gap: 50px;
-    background-color: rgba(4, 70, 192, 0.7);
+    background-color: rgba(4, 70, 192, 0.5);
     height: 100%;
     width: 270px;
     transition: right 0.5s;
     z-index: 2;
     right: -270px;
+    backdrop-filter: blur(3px);
   }
 
   .nav__menu li {

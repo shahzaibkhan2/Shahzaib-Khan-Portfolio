@@ -66,9 +66,9 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
-@media (min-width: 1171px) and (max-width: 1300px) {
+@media (min-width: 1171px) and (max-width: 1366px) {
   .mywork__container {
-    gap: 30px;
+    gap: 40px;
   }
 
   .mywork {
@@ -76,8 +76,8 @@
   }
 
   .mywork__container img {
-    height: 220px;
-    width: 330px;
+    height: 237px;
+    width: 350px;
     cursor: pointer;
     border-radius: 40px;
   }
