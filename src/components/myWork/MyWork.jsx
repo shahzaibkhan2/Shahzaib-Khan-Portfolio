@@ -13,7 +13,11 @@ const MyWork = () => {
       </div>
       <div className={`${styles.mywork__container}`}>
         {myworkData.map((work, i) => {
-          return <img key={i} src={work.w_img} />;
+          return (
+            <a href={work.projectUrl} target="_blank">
+              <img key={i} src={work.img} />
+            </a>
+          );
         })}
       </div>
       <div className={`${styles.mywork__showmore}`}>
