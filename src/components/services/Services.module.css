@@ -181,3 +181,14 @@
     margin-left: 17%;
   }
 }
+
+@media (max-width: 405px) {
+  .services__format {
+    padding: 20px;
+  }
+
+  .services__title {
+    margin-left: 2%;
+    text-align: center;
+  }
+}

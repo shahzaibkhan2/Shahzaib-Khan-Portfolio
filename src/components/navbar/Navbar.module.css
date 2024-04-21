@@ -90,6 +90,10 @@
     margin: 20px 50px;
   }
 
+  .navbar .logo {
+    width: 150px;
+  }
+
   .communicate__me {
     display: none;
   }
@@ -99,6 +103,7 @@
     position: fixed;
     right: 30px;
     cursor: pointer;
+    width: 30px;
   }
 
   .nav__menu__close {
