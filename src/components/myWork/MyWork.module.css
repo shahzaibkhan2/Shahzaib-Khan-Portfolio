@@ -171,3 +171,13 @@
     width: 25px;
   }
 }
+
+@media (max-width: 405px) {
+  .mywork__title {
+    text-align: center;
+  }
+
+  .mywork__title {
+    margin-left: 0;
+  }
+}
