@@ -14,8 +14,8 @@ const MyWork = () => {
       <div className={`${styles.mywork__container}`}>
         {myworkData.map((work, i) => {
           return (
-            <a href={work.projectUrl} target="_blank">
-              <img key={i} src={work.img} />
+            <a key={i} href={work.projectUrl} target="_blank">
+              <img className={`${styles.caption__hover}`} src={work.img} />
             </a>
           );
         })}

@@ -5,6 +5,7 @@ import callIcon from "../../assets/call_icon.svg";
 import locationIcon from "../../assets/location_icon.svg";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { configFiles } from "../../config/config.js";
 
 const Contact = () => {
   const formRef = useRef();
@@ -15,16 +16,19 @@ const Contact = () => {
     setResult("Sending...");
 
     emailjs
-      .sendForm("service_f1fdg1r", "template_067vxj8", formRef.current, {
-        publicKey: "MJr_U-cT6NcVsieAg",
-      })
+      .sendForm(
+        configFiles.emailJsServiceKey,
+        configFiles.emailJsTemplateKey,
+        formRef.current,
+        {
+          publicKey: configFiles.emailJsPublicKey,
+        }
+      )
       .then(
         () => {
-          console.log("SUCCESS!");
           setResult("Message sent successfully !");
         },
         (error) => {
-          console.log("FAILED...", error.text);
           setResult("An error occured while sending message !");
         }
       );
