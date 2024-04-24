@@ -1,14 +1,17 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./Navbar.module.css";
 import shahzaibLogo2 from "../../assets/shahzaibLogo2.svg";
 import underlineIcon2 from "../../assets/underlineIcon2.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import menuOpenIcon from "../../assets/menu_open.svg";
 import menuCloseIcon from "../../assets/menu_close.svg";
+import { useDispatch, useSelector } from "react-redux";
+import { NavbarActions } from "../../store/navBarSlice";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
-  const [stickyBg, setStickyBg] = useState(false);
+  const dispatch = useDispatch();
+  const stickyBg = useSelector((state) => state.NavbarSlice.stickyBg);
+  const menu = useSelector((state) => state.NavbarSlice.menu);
   const menuRef = useRef();
   const openRef = useRef();
 
@@ -24,7 +27,9 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      window.scrollY > 10 ? setStickyBg(true) : setStickyBg(false);
+      window.scrollY > 10
+        ? dispatch(NavbarActions.setStickyBg(true))
+        : dispatch(NavbarActions.setStickyBg(false));
     });
   }, []);
 
@@ -47,7 +52,7 @@ const Navbar = () => {
         />
         <li>
           <AnchorLink className={`${styles.anchor__link}`} href="#home">
-            <p onClick={() => setMenu("home")}>Home</p>
+            <p onClick={() => dispatch(NavbarActions.setMenu("home"))}>Home</p>
           </AnchorLink>
           {menu === "home" && <img src={underlineIcon2} alt="home" />}
         </li>
@@ -57,7 +62,9 @@ const Navbar = () => {
             offset={50}
             href="#about"
           >
-            <p onClick={() => setMenu("about")}>About Me</p>
+            <p onClick={() => dispatch(NavbarActions.setMenu("about"))}>
+              About Me
+            </p>
           </AnchorLink>
           {menu === "about" && <img src={underlineIcon2} alt="About-me" />}
         </li>
@@ -67,7 +74,9 @@ const Navbar = () => {
             offset={50}
             href="#services"
           >
-            <p onClick={() => setMenu("services")}>Services</p>
+            <p onClick={() => dispatch(NavbarActions.setMenu("services"))}>
+              Services
+            </p>
           </AnchorLink>
           {menu === "services" && <img src={underlineIcon2} alt="services" />}
         </li>
@@ -77,7 +86,9 @@ const Navbar = () => {
             offset={50}
             href="#work"
           >
-            <p onClick={() => setMenu("work")}>Projects</p>
+            <p onClick={() => dispatch(NavbarActions.setMenu("work"))}>
+              Projects
+            </p>
           </AnchorLink>
           {menu === "work" && <img src={underlineIcon2} alt="work" />}
         </li>
@@ -87,7 +98,9 @@ const Navbar = () => {
             offset={50}
             href="#contact"
           >
-            <p onClick={() => setMenu("contact")}>Contact Me</p>
+            <p onClick={() => dispatch(NavbarActions.setMenu("contact"))}>
+              Contact Me
+            </p>
           </AnchorLink>
           {menu === "contact" && <img src={underlineIcon2} alt="contact-me" />}
         </li>

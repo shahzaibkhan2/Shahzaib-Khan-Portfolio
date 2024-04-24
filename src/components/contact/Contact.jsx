@@ -3,17 +3,20 @@ import underlineIcon from "../../assets/underlineIcon.svg";
 import mailIcon from "../../assets/mail_icon.svg";
 import callIcon from "../../assets/call_icon.svg";
 import locationIcon from "../../assets/location_icon.svg";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { configFiles } from "../../config/config.js";
+import { useDispatch, useSelector } from "react-redux";
+import { contactActions } from "../../store/contactSlice";
 
 const Contact = () => {
   const formRef = useRef();
-  const [result, setResult] = useState("");
+  const dispatch = useDispatch();
+  const result = useSelector((state) => state.contactSlice.result);
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setResult("Sending...");
+    dispatch(contactActions.setResult("Sending..."));
 
     emailjs
       .sendForm(
@@ -26,10 +29,12 @@ const Contact = () => {
       )
       .then(
         () => {
-          setResult("Message sent successfully !");
+          dispatch(contactActions.setResult("Message sent successfully !"));
         },
-        (error) => {
-          setResult("An error occured while sending message !");
+        () => {
+          dispatch(
+            contactActions.setResult("An error occured while sending message !")
+          );
         }
       );
   };
@@ -73,7 +78,6 @@ const Contact = () => {
           <input type="email" placeholder="Enter Email" name="email" />
           <label htmlFor="">Write Your Message here</label>
           <textarea
-            re
             name="message"
             rows="8"
             placeholder="Enter Message"
