@@ -50,6 +50,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
+      <div className={`${styles.shining__light}`}></div>
       <div className={`${styles.about__achievements}`}>
         <div
           className={`${styles.about__achievement} ${styles.about__achievement__right__margin}`}

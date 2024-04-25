@@ -3,6 +3,20 @@
   align-items: center;
   gap: 35px;
   flex-direction: column;
+  position: relative;
+}
+
+.shining__light {
+  border: transparent;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  box-shadow: 0 0 250px 250px rgba(116, 146, 231, 0.2);
 }
 
 .hero img {
@@ -118,6 +132,10 @@
     gap: 30px;
   }
 
+  .shining__light {
+    box-shadow: 0 0 200px 200px rgba(116, 146, 231, 0.3);
+  }
+
   .hero img {
     margin-top: 140px;
   }
@@ -154,6 +172,10 @@
   .hero img {
     margin-top: 120px;
     width: 260px;
+  }
+
+  .shining__light {
+    box-shadow: 0 0 150px 150px rgba(116, 146, 231, 0.3);
   }
 
   .hero h1 {

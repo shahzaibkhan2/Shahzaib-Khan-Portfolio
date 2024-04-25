@@ -6,6 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 const Hero = () => {
   return (
     <div id="home" className={`${styles.hero}`}>
+      <div className={`${styles.shining__light}`}></div>
       <img src={profileImage} alt="Profile-Image" />
       <h1>
         <span>I'm Shahzaib Khan,</span> Frontend React Developer
