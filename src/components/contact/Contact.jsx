@@ -46,6 +46,7 @@ const Contact = () => {
         <img src={underlineIcon} alt="icon-image" />
       </div>
       <div className={`${styles.contact__section}`}>
+        <div className={`${styles.shining__light}`}></div>
         <div className={`${styles.contact__left}`}>
           <h1>Let's Connect !</h1>
           <p>
