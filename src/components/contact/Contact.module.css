@@ -107,11 +107,11 @@
   outline: none;
   height: 78px;
   padding-left: 20px;
-  border-radius: 40px;
   color: #a0a0a0;
   background: #32323c;
   font-family: Outfit;
   font-size: 20px;
+  border-radius: 10px;
 }
 
 .contact__right textarea {
@@ -119,12 +119,12 @@
   border: none;
   outline: none;
   padding: 25px;
-  border-radius: 40px;
   color: #a0a0a0;
   background: #32323c;
   font-family: Outfit;
   font-size: 20px;
   resize: none;
+  border-radius: 10px;
 }
 
 .submit__btn {

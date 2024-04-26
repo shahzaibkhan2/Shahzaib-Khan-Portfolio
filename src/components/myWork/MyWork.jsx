@@ -3,6 +3,7 @@ import styles from "./MyWork.module.css";
 import underlineIcon from "../../assets/underlineIcon.svg";
 import myworkData from "../../assets/myworkData.js";
 import arrowIcon from "../../assets/arrow_icon.svg";
+import ShowMore from "../showMore/ShowMore";
 
 const MyWork = () => {
   return (
@@ -20,6 +21,7 @@ const MyWork = () => {
           );
         })}
       </div>
+      <ShowMore />
       <div className={`${styles.mywork__showmore}`}>
         <p>Show More</p>
         <img src={arrowIcon} alt="Showmore-image" />
