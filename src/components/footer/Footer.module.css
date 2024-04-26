@@ -189,6 +189,10 @@
   .footer__logo {
     width: 180px;
   }
+
+  .footer__bottom__right {
+    gap: 30px;
+  }
 }
 
 /* <div className={`${styles.footer__top__right}`}>

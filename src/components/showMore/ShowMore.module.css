@@ -1,7 +1,6 @@
 .showmore {
   display: flex;
   align-items: center;
-  margin: 80px 170px;
   justify-content: space-between;
   width: 100%;
   gap: 80px;
@@ -58,7 +57,6 @@
 @media (max-width: 1600px) {
   .showmore {
     flex-direction: column;
-    margin: 40px 120px;
   }
 
   .left__showmore {
@@ -76,5 +74,6 @@
 @media (max-width: 936px) {
   .showmore {
     margin-left: 0;
+    gap: 40px;
   }
 }

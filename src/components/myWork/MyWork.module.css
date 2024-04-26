@@ -134,7 +134,7 @@
   .mywork__showmore {
     font-size: 18px;
     padding: 20px 40px;
-    margin: 50px auto;
+    margin: 40px auto;
   }
 }
 
@@ -158,6 +158,7 @@
 
   .mywork__showmore {
     font-size: 14px;
+    margin-top: -5px;
   }
 
   .mywork__container img {

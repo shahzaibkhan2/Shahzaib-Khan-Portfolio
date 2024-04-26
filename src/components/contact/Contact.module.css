@@ -212,6 +212,10 @@
     gap: 45px;
   }
 
+  .shining__light {
+    top: 25%;
+  }
+
   .contact__section {
     flex-direction: column;
   }
@@ -222,6 +226,10 @@
     gap: 50px;
     align-items: start;
     margin: 50px 70px;
+  }
+
+  .shining__light {
+    top: 20%;
   }
 
   .contact__title {
@@ -289,6 +297,10 @@
     margin: 45px 65px;
   }
 
+  .shining__light {
+    box-shadow: 0 0 150px 150px rgba(116, 146, 231, 0.11);
+  }
+
   .contact__title h1 {
     font-size: 40px;
   }
@@ -324,5 +336,12 @@
   .submit__btn {
     font-size: 18px;
     padding: 13px 37px;
+  }
+}
+
+@media (max-width: 390px) {
+  .contact__title {
+    white-space: nowrap;
+    margin-left: 0%;
   }
 }
