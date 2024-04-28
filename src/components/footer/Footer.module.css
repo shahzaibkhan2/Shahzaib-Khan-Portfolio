@@ -139,7 +139,7 @@
 
 @media (min-width: 1171px) and (max-width: 1366px) {
   .footer {
-    margin: 50px 45px;
+    margin: 50px 125px;
     gap: 50px;
   }
 }
