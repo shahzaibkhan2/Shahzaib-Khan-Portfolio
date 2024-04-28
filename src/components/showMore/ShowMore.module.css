@@ -76,4 +76,9 @@
     margin-left: 0;
     gap: 40px;
   }
+
+  .showmore h2 {
+    white-space: nowrap;
+    margin-bottom: 20px;
+  }
 }
