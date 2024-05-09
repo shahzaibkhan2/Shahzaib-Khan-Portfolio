@@ -4,8 +4,14 @@ import project3 from "../assets/youtube_clone_landing_page.jpg";
 import project4 from "../assets/landing_page_3.png";
 import project5 from "../assets/Landing_Page_2.png";
 import project6 from "../assets/amazon_clone.png";
+import project7 from "../assets/product7.jpg";
 
 const mywork_data = [
+  {
+    projectUrl: "https://shahzaib-you-tube-clone.vercel.app",
+    name: "Ecommerce Website",
+    img: project7,
+  },
   {
     projectUrl: "https://shahzaib-you-tube-clone.vercel.app",
     name: "YouTube Clone",
