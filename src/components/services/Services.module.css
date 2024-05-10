@@ -86,6 +86,13 @@
 
 /* RESPONSIVENESS FOR MEDIUM AND SMALL DEVICES  */
 
+@media (max-width: 1580px) {
+  .services__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+  }
+}
+
 @media (min-width: 1171px) and (max-width: 1300px) {
   .services__format {
     gap: 18px;
