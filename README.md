@@ -1,4 +1,3 @@
-![HOME PAGE](src/assets/my_ecommerce_website_landing_page.jpg)
 # Ecommerce Advanced Website Developed with React + Vite
 
 I Built a fully functional, responsive and beautiful Ecommerce Website using JavaScript, HTML and CSS, Git and 
@@ -10,3 +9,9 @@ available to the public
 Currently, available on:
 
 - [https://shahzaib-you-tube-clone.vercel.app](https://shahzaib-you-tube-clone.vercel.app)
+
+![HOME PAGE](src/assets/my_portfolio.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_2.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_3.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_4.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_6.jpg)
