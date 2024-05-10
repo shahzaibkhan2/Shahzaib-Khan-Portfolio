@@ -139,18 +139,25 @@
 
 @media (min-width: 1171px) and (max-width: 1366px) {
   .footer {
-    margin: 50px 125px;
-    gap: 50px;
+    margin: 50px 90px;
+    gap: 90px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .footer {
+    margin: 1rem 4.5rem;
+    gap: 90px;
   }
 }
 
 @media (max-width: 1170px) {
   .footer {
-    margin: 45px 160px;
+    margin: 1.2rem 9.5rem;
   }
 
   .footer__top {
-    gap: 70px;
+    gap: 90px;
   }
 }
 
@@ -194,11 +201,3 @@
     gap: 30px;
   }
 }
-
-/* <div className={`${styles.footer__top__right}`}>
-          <div className={`${styles.footer__email__input}`}>
-            <img src={userIcon} alt="user-icon" />
-            <input type="email" placeholder="Enter Your Email " />
-          </div>
-          <button className={`${styles.subscribe__btn}`}>Subscribe</button>
-        </div> */
