@@ -106,7 +106,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div
-        className={`${styles.communicate__me} ${
+        className={`${styles.communicate__me} ${styles.pulse__effect} ${
           stickyBg && styles.communicate__border
         }`}
       >
