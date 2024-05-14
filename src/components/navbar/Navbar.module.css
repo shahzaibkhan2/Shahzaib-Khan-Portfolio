@@ -26,40 +26,6 @@
   color: #fff;
 }
 
-.pulse__effect {
-  -webkit-animation: pulse__effect 0.7s ease-in-out infinite both;
-  animation: pulse__effect 0.7s ease-in-out infinite both;
-}
-
-@-webkit-keyframes pulse__effect {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-@keyframes pulse__effect {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
 .nav__menu li {
   display: flex;
   flex-direction: column;
@@ -104,6 +70,40 @@
 }
 
 /* ANIMATIONS FOR BUTTONS  */
+
+.pulse__effect {
+  -webkit-animation: pulse__effect 0.7s ease-in-out infinite both;
+  animation: pulse__effect 0.7s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulse__effect {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulse__effect {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 
 @keyframes glowAnim {
   0% {
