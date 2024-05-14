@@ -1,8 +1,17 @@
-# React + Vite
+# My Personal Portfolio Website Developed with React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I Built a fully functional, responsive and beautiful Personal Portfolio Website using JavaScript, HTML and CSS, Git and 
+Github, Redux Toolkit and ECMAScript on ReactJs. I have used many React libries as a main database and server for authentications and data storage using advanced JavaScript async 
+await methods and ECMA Script methods. This website is available on my Github ID. I have also hosted 
+this website on Vercel at this address [https://shahzaib-khan-portfolio.vercel.app](https://shahzaib-khan-portfolio.vercel.app) to make it 
+available to the public
 
-Currently, two official plugins are available:
+Currently, available on:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [https://shahzaib-you-tube-clone.vercel.app](https://shahzaib-khan-portfolio.vercel.app)
+
+![HOME PAGE](src/assets/my_portfolio.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_2.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_3.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_4.jpg)
+![HOME PAGE](src/assets/Shahzaib_Khan_6.jpg)
