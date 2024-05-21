@@ -2,7 +2,13 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const navBarSlice = createSlice({
   name: "NavbarSlice",
-  initialState: { menu: "home", stickyBg: false, menuRef: null, openRef: null },
+  initialState: {
+    menu: "home",
+    stickyBg: false,
+    menuRef: null,
+    openRef: null,
+    recentProject: false,
+  },
   reducers: {
     setMenu: (state, action) => {
       state.menu = action.payload;
@@ -10,6 +16,9 @@ const navBarSlice = createSlice({
 
     setStickyBg: (state, action) => {
       state.stickyBg = action.payload;
+    },
+    setRecentProject: (state) => {
+      state.recentProject = !state.recentProject;
     },
   },
 });
