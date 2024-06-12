@@ -181,3 +181,12 @@
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 440px) {
+  .mywork__showmore {
+    font-size: 12px;
+  }
+  .mywork__showmore img {
+    width: 20px;
+  }
+}
