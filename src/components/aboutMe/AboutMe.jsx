@@ -55,21 +55,21 @@ const AboutMe = () => {
         <div
           className={`${styles.about__achievement} ${styles.about__achievement__right__margin}`}
         >
-          <h1>5+ </h1>
+          <h1>6+ </h1>
           <p>Years of Experience</p>
         </div>
         <hr />
         <div
           className={`${styles.about__achievement} ${styles.about__achievement__left__margin}`}
         >
-          <h1>50+ </h1>
+          <h1>70+ </h1>
           <p>Projects Completed</p>
         </div>
         <hr />
         <div
           className={`${styles.about__achievement} ${styles.about__achievement__left__margin}`}
         >
-          <h1>12+ </h1>
+          <h1>16+ </h1>
           <p>Satisfied Clients</p>
         </div>
         <hr />
