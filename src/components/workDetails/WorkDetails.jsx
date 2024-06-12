@@ -6,15 +6,16 @@ function WorkDetails() {
       <div className={styles.left__text}>
         <h2 className={styles.heading}>YOUTUBE CLONE</h2>
         <p className={styles.sub__heading}>
-          I Built a fully functional, responsive and beautiful YouTube Clone
+          I Built a fully functional, responsive and beautiful Crypto Price App
           using JavaScript, HTML and CSS, Git and Github, Redux Toolkit and ECMA
-          Script on ReactJs.
+          Script, API integrations and Authentications using fire base on
+          ReactJs.
         </p>
         <p className={styles.sub__heading}>
-          I fetched the YouTube API using advanced JavaScript async await
-          methods and ECMA Script methods. This website is available on my
-          Github ID. I have also hosted this website on Vercel to make it
-          available to the public
+          I fetched the Gecko API using advanced JavaScript async await methods
+          and ECMA Script methods. This website is available on my Github ID. I
+          have also hosted this website on Vercel to make it available to the
+          public
         </p>
         <button>
           <a target="_blank" href="https://shahzaib-you-tube-clone.vercel.app">
