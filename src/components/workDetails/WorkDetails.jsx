@@ -4,7 +4,7 @@ function WorkDetails() {
   return (
     <div className={styles.main__container}>
       <div className={styles.left__text}>
-        <h2 className={styles.heading}>YOUTUBE CLONE</h2>
+        <h2 className={styles.heading}>CRYPTO PRICE APP</h2>
         <p className={styles.sub__heading}>
           I Built a fully functional, responsive and beautiful Crypto Price App
           using JavaScript, HTML and CSS, Git and Github, Redux Toolkit and ECMA
